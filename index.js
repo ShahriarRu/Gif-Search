@@ -19,7 +19,7 @@ input.addEventListener("keyup", function (e) {
 
 function searchGiphy(searchQuery) {
   var url =
-    "http://api.giphy.com/v1/gifs/search?api_key=j69EHOh67l2BdC0qylW45BlGneq77dzO&q=" +
+    "https://api.giphy.com/v1/gifs/search?api_key=j69EHOh67l2BdC0qylW45BlGneq77dzO&q=" +
     searchQuery;
   //AJAX Request
 
